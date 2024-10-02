@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "responder"
+version = "0.1.0"
+description = "respond to stuff"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+netifaces = ">=0.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
